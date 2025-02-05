@@ -8,3 +8,5 @@ int main()
     t = toupper(t);
     printf("%c", t);
 }
+
+// here we learn the use of uper case or lower case terns
