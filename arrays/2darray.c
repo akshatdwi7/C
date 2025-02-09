@@ -14,8 +14,8 @@ int main()
     a[0][2] = 0;
     int rows;
     int columns;
-    rows = sizeof(a) / sizeof(a[0]);
-    columns = sizeof(a[0]) / sizeof(a[0][0]);
+    rows = sizeof(a) / sizeof(a[0]);          // number of rows
+    columns = sizeof(a[0]) / sizeof(a[0][0]); // sizeof(a[0]) is the size of the first row
 
     for (int i = 0; i < rows; i++)
     {
