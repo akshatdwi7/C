@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 // string copy function won't work untill the size of the array of char is the same
-// just need to keep the steps in mind 
+// just need to keep the steps in mind
 int main()
 {
 
